@@ -1,16 +1,122 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+ <head lang="en">
+ <meta charset="utf-8">
+ <title>Homepage</title>
+ <link href="homepage.css" rel="stylesheet" type="text/css"/>
+ </head>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Girish Sapkota</title>
-</head>
+<header>
+  <nav class="navigationBar">
+    <ul>
+      <li class="nameGirish">Girish Sapkota</li>
+      <li> <a href="#About">About Me</a> </li>
+      <li> <a href="#Skills">Skills</a></li>
+      <li> <a href="#Education">Education</a> </li>
+      <li> <a href="#Experience">Experience</a> </li>
+      <li> <a href="#Portfolio">Portfolio</a> </li>
+      <li> <a href="#Contact">Contact</a> </li>
+    </ul>
+  </nav>
+</header>
 
-  <body>
-    <!-- your content here... -->
-    <h1> Girish Sapkota </h1>
-    <h1> This is my portfolio website! </h1>
+ <body>
+   <div class="container">
+     <div class="text-picture">
+         <article class="text">
+           <section id="About">
+             <h3>About Me</h3>
+             <p>My name is Girish Sapkota. Currently, I am in my first year,
+               studying Computer Science at Queen Mary’s University of London.
+               The areas of technology I am interested in are; Artificial
+               intelligence, Software development, App development. Outside of
+               technology, I like swimming, running and doing Muay Thai.</p>
+           </section>
 
-  </body>
+           <section id="Skills">
+             <h3>Skills and Achievements</h3>
+             <p>These are a few of my Skills and Achievements:</p>
+               <ul class="list">
+                 <li>Procedural Java Programming - After learning Procedural Java Programming,
+                   I created an impossible quiz for my mini project. From this, I
+                   learned how to do file input/output, how to get user’s input, how to keep score.
+                   As well as the importance of using separate methods to do different tasks.</li>
+                 <li>Object Oriented Java Programming - After learning Object Oriented Java
+                   Programming, I created a Stocks Simulator. From this I
+                   learned why polymorphism is used in programming and why it is good
+                   to use many classes to do different things. I also learned how to
+                   make Graphic User Interfaces.</li>
+                 <li>HTML, CSS, JavaScript and PHP -  I used the skills I gained from
+                   these four to create this portfolio. I used HTML and CSS for the
+                   homepage. I used JavaScript for validation in the login and create
+                   post forms. And I used PHP for the login and to keep the blog
+                   posts in a database.</li>
+               </ul>
+           </section>
+
+           <section id="Education">
+             <h3>Education and Qualifications</h3>
+             <ul>
+               <li>GCSE's - St. Marks - 2015 to 2017 </li>
+               <li>A Levels - Richard Hale - 2017 to 2019</li>
+               <li>Bachelor's Degree - Queen Mary University of London - 2019 to Present</li>
+             </ul>
+           </section>
+
+           <section id="Experience">
+             <h3>Experience</h3>
+             <p> These are some of my Experience:</p>
+               <ul class="list">
+                 <li>Barclays Bank - In 2016 I did my work experience at Barclays
+                   Bank. I was shadowing the business manager, observing and learning
+                   what they were doing as well as helping them out from time to time.
+                   I have gained time management skills – why it is crucial to always
+                   be on time. As well as how to communicate with clients in a
+                   professional manner.</li>
+                 <li>Assisting a Computer Science class - In 2018 I assisted my teacher
+                    with his year 11 class. I helped students who were struggling with
+                    the subject and their coursework. From this, I learned how to
+                    communicate with students so I know what it is they are struggling
+                    with so I can help them. I also learned how to help students without
+                    giving them the answers straight away. Before I thought giving the
+                    answer to the students was the best method for them to learn, but
+                    after the experience I learned that you need to help them in a way
+                    so they reach the answer themselves, and they know how to reach
+                    the answer in the future for similar questions.</li>
+               </ul>
+           </section>
+
+           <section id="Portfolio">
+             <h3>Portfolio</h3>
+             <p>Here are some of the projects I have done</p>
+             <ul class="list">
+               <li>Impossible Quiz - This was a program that would ask the user a question
+               and give them 3 options. One would be the correct answer, another would be
+               the incorrect answer and the other would be an impossible answer. If the user
+               picked the correct answer, their score would increase by a random number, if
+               they picked the wrong answer their score wouldn't change and if they picked the impossible
+               answer they would lose all of their score.</li>
+               <li>Stocks Simulator - This programming emulates
+               the stock market. The prices change randomly and the fundamental
+               reason for the change is shown. The user is able to select from a
+               variety of stocks to buy or sell. They are also able to deposit
+               and withdraw money from their account. </li>
+             </ul>
+           </section>
+
+           <hgroup id="Contact">
+             <h3>Contact</h3>
+             <p>Email: girish1sapkota@gmail.com</p>
+           </hgroup>
+         </article>
+
+       <aside class="picture">
+         <hgroup>
+         <figure><img src="image.jpg"></figure>
+         <figcaption> Girish Sapkota </figcaption>
+         </hgroup>
+       </aside>
+     </div>
+   </div>
+ </body>
 </html>
