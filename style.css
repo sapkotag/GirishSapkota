@@ -754,14 +754,10 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-}
-
-@media (max-width: 845px) {
     .education .education-content .card{
         width: 100%;
     }
 }
-
 
 @media (max-width: 500px) {
     .home .home-content .text-2{
