@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /achievement/
+Disallow: /images/
+Disallow: /project/
+Disallow: /script.js/
+Disallow: /style.css/
+Disallow: /ExampleWordsearch.pdf/
